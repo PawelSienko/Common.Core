@@ -1,4 +1,0 @@
-C:\Users\psienko\Desktop\Modules\Common.Core\Common.Core\bin\Debug\Common.Core.dll
-C:\Users\psienko\Desktop\Modules\Common.Core\Common.Core\bin\Debug\Common.Core.pdb
-C:\Users\psienko\Desktop\Modules\Common.Core\Common.Core\obj\Debug\Common.Core.dll
-C:\Users\psienko\Desktop\Modules\Common.Core\Common.Core\obj\Debug\Common.Core.pdb

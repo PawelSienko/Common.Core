@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Common.Core.Validation;
 
 namespace Common.Core.Exceptions
@@ -11,7 +7,9 @@ namespace Common.Core.Exceptions
     {
         protected string DefaultMsg;
 
+        // ReSharper disable once InconsistentNaming
         protected readonly string message;
+        // ReSharper disable once InconsistentNaming
         protected readonly string parameter;
 
         protected ExceptionBase(string defaultMessage)

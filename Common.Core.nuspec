@@ -7,8 +7,8 @@
         <authors>Pawel Sienko</authors>
         <owners>Pawel Sienko</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>Common.COre has common reusable code.</description>
-        <summary>Common.COre has common reusable code.</summary>
+        <description>Common.Core has common reusable code.</description>
+        <summary>Common.Core has common reusable code.</summary>
         <language>en-GB</language>
     </metadata>
 </package>

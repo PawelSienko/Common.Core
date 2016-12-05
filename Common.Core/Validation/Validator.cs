@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Common.Core.Validation
 {
@@ -17,6 +18,15 @@ namespace Common.Core.Validation
             if (string.IsNullOrEmpty(item))
             {
                 throw new ArgumentNullException(nameof(item), Consts.ValidationMessages.StringNullOrEmpty);
+            }
+        }
+
+        public static void ValidateCondition<TElement>(TElement element,Func<TElement,bool> condition)
+        {
+            bool validationResult = condition.Invoke(element);
+            if (false == validationResult)
+            {
+                throw new Exception("Validation result of condition failed.");
             }
         }
     }

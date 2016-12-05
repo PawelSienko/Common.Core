@@ -1,3 +1,6 @@
 /Common.Core/obj/Debug/*.cache
 /Common.Core/bin
 /Common.Core/obj
+/Common.Core.UnitTests/bin
+/Common.Core.UnitTests/obj
+/Common.Core/*.user

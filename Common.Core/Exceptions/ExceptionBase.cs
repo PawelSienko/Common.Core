@@ -11,10 +11,10 @@ namespace Common.Core.Exceptions
         protected readonly string message;
         // ReSharper disable once InconsistentNaming
         protected readonly string parameter;
-
-        protected ExceptionBase(string defaultMessage)
+        
+        protected ExceptionBase(string message)
         {
-            DefaultMsg = defaultMessage;
+            DefaultMsg = message;
         }
 
         protected ExceptionBase(string message, string parameter)

@@ -1,8 +1,8 @@
-<?xml version="1.0"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
-  <metadata minClientVersion="1.0.0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
         <id>Common.Core.Net.Framework</id>
-        <version>1.0.82</version>
+        <version>1.0.136</version>
         <title>Common.Core.Net.Framework</title>
         <authors>Pawel Sienko</authors>
         <owners>Pawel Sienko</owners>
@@ -11,4 +11,7 @@
         <summary>Common.Core has common reusable code.</summary>
         <language>en-GB</language>
     </metadata>
+    <files>
+        <file src="Common.Core\bin\Debug\Common.Core.dll" target="lib\net461\Common.Core.dll" />
+    </files>
 </package>
